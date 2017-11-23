@@ -1,0 +1,17 @@
+[user]
+	name = qianngchn
+	email = qianngchn@gmail.com
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[push]
+	default = simple
+[credential]
+	helper = store
