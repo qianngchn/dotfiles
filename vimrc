@@ -65,7 +65,7 @@ set scrolloff=2 " 光标移动到顶部和底部时保持2行距离
 set laststatus=2 " 总是显示状态行
 set statusline=%<%F\ [%n%Y%R%M]\ [0x%B]%=%{&fileformat}\ <\ %{&fileencoding!=''?&fileencoding:&encoding}\ <\ %l,%c,%P,%L " 状态栏显示信息
 set foldmethod=syntax " 根据语法进行折叠
-set foldlevel=1 " 设置折叠层数
+set foldlevel=2 " 设置折叠层数
 set completeopt=longest,menu " 设置自动补全
 set previewheight=3 " 设置预览窗口高度
 set list " 显示隐藏字符

@@ -9,6 +9,7 @@ if [[ $(tty) = /dev/tty[0-6] ]]; then
     export LANGUAGE="en_US:en"
     export LC_ALL="en_US.UTF-8"
 fi
+
 if [ -d "$HOME/local" ]; then
     export PATH="$HOME/local/bin:$PATH"
     export CPATH="$HOME/local/include"
@@ -33,6 +34,7 @@ dotmux() {
         tmux selectw -t 0:0
         tmux selectp -t 0:0.0
     fi
+
     tmux attach
 
     return 0
