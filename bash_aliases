@@ -1,6 +1,5 @@
 # alias definitions
 alias proxy='http_proxy="http://127.0.0.1:7777" https_proxy="http://127.0.0.1:7777"'
-alias drive='proxy drive'
 alias git='proxy git'
 
 # export definitions
